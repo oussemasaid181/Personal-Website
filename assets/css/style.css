@@ -525,6 +525,14 @@ img {
         height: 250px;
     }
 }
+.contact-item a {
+    color: rgb(161, 161, 161); /* LinkedIn blue */
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
 
 /* Smooth scrolling enhancement */
 @media (prefers-reduced-motion: no-preference) {
