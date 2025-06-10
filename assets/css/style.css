@@ -533,6 +533,32 @@ img {
 .contact-item a:hover {
     text-decoration: underline;
 }
+ .contact-item {
+            margin-bottom: 20px;
+        }
+        
+        .contact-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 5px;
+        }
+        
+        .contact-logo {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+        
+        .contact-header h3 {
+            margin: 0;
+            font-size: 1.1em;
+        }
+        
+        .contact-info p {
+            margin: 0;
+            margin-left: 28px;
+        }
 
 /* Smooth scrolling enhancement */
 @media (prefers-reduced-motion: no-preference) {
